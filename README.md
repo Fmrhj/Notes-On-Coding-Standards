@@ -54,7 +54,7 @@ camel case     | `exampleVariable`   | In general for R, JSON, JavaScript variab
 pascal case    | `ExampleVariable`   | Classes in Java, Classes and Modules in Python            |
 snake case     | `example_variable`  | Variables and methods in Python                           |
 screaming case | `EXAMPLE_VARIABLE`  | Bash variables, constants in Python, JavaScript           |
-kebap case     | `example-variable`  | CSS                                                       |
+kebap case     | `example-variable`  | CSS, git repositories                                     |
 
 ## Style guides
 

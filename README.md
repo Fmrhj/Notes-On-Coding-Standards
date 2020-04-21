@@ -1,9 +1,9 @@
 # Some notes on coding standards
 
 To write a clean and readable code is a hard task. However this should not be 
-a painful experience. I see coding as writing a story. While writing scripts and 
-more complex pieces of software we are doing both programming a 
-machine and telling a story to at least one person, which is your future self reading that piece of code.     
+a painful experience. I see coding as telling a story. While writing scripts or 
+developing complex pieces of software we are doing both programming a 
+machine, and telling a story to at least one more person, which is your future self reading that piece of code.     
 
 Here are some notes on coding standards and styling guides for data science programming languages. 
 

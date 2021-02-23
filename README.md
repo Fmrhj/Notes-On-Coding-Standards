@@ -1,13 +1,8 @@
-# Some notes on coding standards
+# Short notes on naming standards
 
-To write a clean and readable code is a hard task. However this should not be 
-a painful experience. I see coding as telling a story. While writing scripts or 
-developing complex pieces of software we are doing both programming a 
-machine, and telling a story to at least one more person, which is your future self reading that piece of code.     
+Here are some notes on naming standards and styling guides for programming languages. 
 
-Here are some notes on coding standards and styling guides for data science programming languages. 
-
-## Some definitions: Letter cases
+## Letter cases
 
 ### Camel forms
 #### camelCase  
@@ -48,15 +43,23 @@ Each word is separated by a hyphen.
 
 ### Summary
 
-Type           | Example             | Usage                                                     |
----------------|---------------------|-----------------------------------------------------------|
-camel case     | `exampleVariable`   | In general for R, JSON, JavaScript variables              | 
-pascal case    | `ExampleVariable`   | Classes in Java, Classes and Modules in Python            |
-snake case     | `example_variable`  | Variables and methods in Python                           |
-screaming case | `EXAMPLE_VARIABLE`  | Bash variables, constants in Python, JavaScript           |
-kebap case     | `example-variable`  | CSS, git repositories                                     |
+Type           | Example             | Usage                                                                                             |
+---------------|---------------------|---------------------------------------------------------------------------------------------------|
+camel case     | `exampleVariable`   | In general for: **Go** variables (and non-exportable methods), **JavaScript** variables, **R**, **JSON** keys,           |
+pascal case    | `ExampleVariable`   | Classes in **Java**, **C#**, Classes and Modules in **Python**, **Go** exportable methods, **Terraform** Definitions        |
+snake case     | `example_variable`  | Variables and methods in **Python**, and **C/C++**                                                        |
+screaming case | `EXAMPLE_VARIABLE`  | **Bash** variables, almost all constants e.g.: **Python**, **JavaScript**, **C/C++**; **env. variables**, **SQL**                   |
+kebap case     | `example-variable`  | **CSS**, **git repos**, cloud and container resources, e.g. [**K8s** deployments](https://medium.com/faun/kubernetes-pod-naming-convention-78272fcc53ed) e.g. [Azure resource groups](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming), [GCP](https://stepan.wtf/cloud-naming-convention/) projects, etc.!                                                           |
 
-## Style guides
+## Short references
+
+### C
+
+- [Recommended C Style](https://www.doc.ic.ac.uk/lab/cplus/cstyle.html)
+
+### Go 
+
+- [Go Lint](https://github.com/golang/lint)
 
 ### Python
 

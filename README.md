@@ -1,9 +1,9 @@
 # Short notes on naming standards
 
 <!-- toc -->
-- [Variable naming](#variable-naming)
-- [Comment style](#comment-style)
-- [References](#references)
+- [Variable naming](##variable-naming)
+- [Comment style](##documenting-and-comment-style)
+- [References](##references)
 
 <!-- tocstop -->
 
@@ -58,7 +58,7 @@ snake case     | `example_variable`  | Variables and methods in **Python**, and 
 screaming case | `EXAMPLE_VARIABLE`  | **Bash** variables, almost all constants e.g.: **Python**, **JavaScript**, **C/C++**; **env. variables**, **SQL**                   |
 kebap case     | `example-variable`  | **CSS**, **git repos**, cloud and container resources, e.g. [**K8s** deployments](https://medium.com/faun/kubernetes-pod-naming-convention-78272fcc53ed) e.g. [Azure resource groups](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming), [GCP](https://stepan.wtf/cloud-naming-convention/) projects, etc.!                                                           |
 
-## Documenting and comemnt style
+## Documenting and comment style
 
 ### R
 

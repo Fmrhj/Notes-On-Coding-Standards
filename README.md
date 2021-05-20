@@ -1,4 +1,4 @@
-# Short notes on naming standards
+# Notes on coding styles
 
 <!-- toc -->
 - [Variable naming](##variable-naming)
@@ -7,7 +7,7 @@
 
 <!-- tocstop -->
 
-Here are some notes on naming standards and styling guides for programming languages.
+Here are some notes on coding styles for some programming languages. It helps me to keep all references in one place.
 
 ## Variable naming
 
@@ -117,3 +117,4 @@ Check out this [blog](http://daouzli.com/blog/docstring.html) for more informati
 
 - [Bholben Naming Conventions](https://github.com/bholben/Naming-Conventions)
 - [Coding with Corgis](https://medium.com/codewithcorgis/naming-conventions-with-corgis-8a567549c4bc)
+- [Coding style guides across languages]([https://www.endpoint.com/blog/2015/08/17/coding-style-guides-across-languages)

@@ -87,6 +87,48 @@ def special_method():
 
 Personally, I prefer the [GoogleDoc style](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html) because it documents the types of the object related variables. This is useful since Python inclusion of type hints implemented by [PEP 484](https://www.python.org/dev/peps/pep-0484/).
 
+Example:
+
+```python
+def example_function(param1, param2=None, *args, **kwargs):
+    """<High level description>
+
+    <Extension of the high level description>
+
+    The format for a parameter is::
+    
+        name (type): description
+            The description may span multiple lines. Following
+            lines should be indented. The "(type)" is optional.
+
+            Multiple paragraphs are supported in parameter
+            descriptions.
+
+    Args:
+        param1 (int): The first parameter.
+        param2 (:obj:`str`, optional): The second parameter. Defaults to None.
+            Second line of description should be indented.
+        *args: Variable length argument list.
+        **kwargs: Arbitrary keyword arguments.
+
+    Returns:
+        bool: True if successful, False otherwise.
+           
+        An example is also useful
+        
+    Raises:
+        AttributeError: The ``Raises`` section is a list of all exceptions
+            that are relevant to the interface.
+        Further errors should be listed here
+    """
+    
+    # Content
+    
+    return True
+
+```
+
+
 Check out this [blog](http://daouzli.com/blog/docstring.html) for more information. Also this [stackoverflow](https://stackoverflow.com/a/24385103).
 
 ## Short references

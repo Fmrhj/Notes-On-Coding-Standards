@@ -1,7 +1,7 @@
 # Notes on coding styles
 
 <!-- toc -->
-- [Variable naming](##variable-naming)
+- [Variables](##variables)
 - [Comment style](##documenting-and-comment-style)
 - [References](##references)
 
@@ -9,40 +9,34 @@
 
 Here are some notes on coding styles for some programming languages. It helps me to keep all references in one place.
 
-## Variable naming
+## Variables
 
-### Camel forms
-
-#### camelCase  
+### camelCase 
 
 Here there are no spaces between words and the first letter is lower-case.
 Each word after the first begins with a capitalized letter.
 
 **Examples**: `camelFormVariable`, `secondMethod`
 
-#### PascalCase
+### PascalCase
 
 Subset of camel form where the first letter is capitalized.
 
 **Example**: `AnotherCamelFormVariable`
 
-### Underscore_united
-
-#### snake_case
+### snake_case
 
 Verb and nouns are glued by underscores.
 
 **Example**: `underscore_defined_function()`
 
-#### SCREAMING_CASE
+### SCREAMING_CASE
 
 Common case of underscored variables with all caps letters.
 
 **Examples**: `THIRD_VARIABLE`, `ITERATOR` 
 
-### Hyphen_united
-
-#### skewer-case a.k.a. kebap-case
+### skewer-case a.k.a. kebap-case
 
 Each word is separated by a hyphen.
 
